@@ -216,6 +216,25 @@
   .books-small {
     max-height: 300px;
   }
+  .books-small-text >p{
+    opacity: 0.5;
+  }
+  .bg-light-blue {
+    background-color: #f4f8ff;
+  }
+  .books-section {
+    padding: 50px 0;
+  }
+  .includes-text {
+    text-align: center;
+  }
+  .author-section {
+    padding: 50px 0;
+    gap: 60px;
+  }
+  .author-image {
+    max-height: 350px;
+  }
   
 
 

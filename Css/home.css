@@ -249,6 +249,29 @@
   bottom: -10px;
   left: 0;
 }
+.about-author-underline {
+  position: relative;
+}
+.about-author-underline::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.border-right-yellow {
+  border-right: solid #ffca42;
+  padding-right: 50px;
+}
+.visit-card-container {
+  margin-top: 30px;
+}
+.visit-card {
+  max-width: 200px;
+}
   
 
 

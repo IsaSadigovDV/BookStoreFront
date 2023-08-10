@@ -235,6 +235,20 @@
   .author-image {
     max-height: 350px;
   }
+
+.about-author-underline {
+  position: relative;
+}
+.about-author-underline::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
   
 
 

@@ -27,6 +27,10 @@
   .links .menu-btn {
     display: none;
   }
+button:hover{
+  transition: 0.3s;
+  transform: scale(1.05);
+  }
   .links .header-icons-container {
     display: none;
   }
@@ -270,7 +274,39 @@
   margin-top: 30px;
 }
 .visit-card {
+  max-width: 250px;
+}
+
+.trusted {
+  gap: 20px;
+}
+.trusted-text {
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+.trusted-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 430px;
+  top: 30px;
+}
+.trusted-brands {
+  gap: 30px;
+}
+.trusted-card {
   max-width: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+.trusted-brands-small {
+  max-height: 90px;
+  object-fit: contain;
 }
   
 

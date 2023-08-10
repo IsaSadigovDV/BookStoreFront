@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Cardo-regular;
+    src: url(../fonts/Cardo-Regular.ttf);
+  }
+  @font-face {
+    font-family: Cardo-italic;
+    src: url(../fonts/Cardo-Italic.ttf);
+  }
+  @font-face {
+    font-family: Cardo-bold;
+    src: url(../fonts/Cardo-Bold.ttf);
+  }
+  
+  * {
+    font-family: Cardo-regular, Cardo-italic, Cardo-bold, serif;
+    object-fit: cover;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  body {
+    color: #f9fbff;
+    font-family: Cardo-regular, Cardo-italic, Cardo-bold, serif;
+  }
+  .links .menu-btn {
+    display: none;
+  }
+  .links .header-icons-container {
+    display: none;
+  }
+  .links .hidden-logo {
+    display: none;
+  }
+  
+  .menu {
+    display: none;
+  }
+  .header {
+    padding-bottom: 30px;
+  }
+  .nav {
+    gap: 80px;
+    padding-bottom: 30px;
+  }
+  
+  .unique-text {
+    padding: 10px 0;
+  }
+  .blue-section {
+    padding: 10px;
+    gap: 20px;
+  }
+  .pages-cont {
+    gap: 40px;
+  }
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+  .space-around {
+    justify-content: space-around;
+  }
+  .space-between {
+    justify-content: space-between;
+  }
+  .logo-container {
+    gap: 5px;
+  }
+  
+  .icon-container {
+    gap: 15px;
+  }
+  .pages-container {
+    gap: 20px;
+  }
+  .links li {
+    display: inline-block;
+  }
+  .mar-30 {
+    margin: 30px auto;
+  }
+  .bg-blue {
+    background-color: #1b3764;
+  }
+  
+  .fa-brands {
+    color: #f9fbff;
+  }
+  
+  .yellow {
+    color: #ffca42;
+  }
+  .white {
+    color: #f4f8ff;
+  }
+  .blue {
+    color: #1b3764;
+  }
+  .gray {
+    color: #969aa0;
+  }
+  .header-icons-container {
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #ffca42;
+    border: none;
+    color: #1b3764;
+    padding: 8px 25px;
+  }
+  .btn-no-bg {
+    border: 1px solid #ffca42;
+    color: #1b3764;
+    padding: 8px 25px;
+    background-color: transparent;
+  }
+  .btn-no-bg-white {
+    border: 1px solid #ffca42;
+    color: #f4f8ff;
+    padding: 8px 25px;
+    background-color: transparent;
+  }
+  a {
+    text-decoration: none;
+    color: #f9fbff;
+  }
+  p {
+    text-align: justify;
+  }
+  .bulleted::before {
+    display: inline-block;
+    content: "";
+    border-radius: 0.375rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.5rem;
+    background-color: #ffca42;
+  }
+  
+  .bulleted h4 {
+    display: inline;
+  }
+  
+  .bulleted p {
+    margin-left: 20px;
+  }
+  
+  .underline {
+    text-decoration: none;
+    position: relative;
+    color: #f9fbff;
+  }
+
+  
+.underline::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .lined {
+    position: relative;
+    padding-left: 25px;
+  }
+  .lined::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 0.5px;
+    background: #ffca42;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .bookLight {
+    max-height: 400px;
+  }
+  
+  .line-sm {
+    position: relative;
+  }
+  
+  .line-sm::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #ffca42;
+    position: absolute;
+    bottom: 0;
+    left: 470px;
+    top: 30px;
+  }
+  .books-pages-cont {
+    gap: 40px;
+  }
+  .books-small {
+    max-height: 300px;
+  }
+  
+
+
+

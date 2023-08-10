@@ -6,8 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Store</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
+    <header class="bg-blue">
+        <div class="header d-flex container space-between align-center">
+          <div class="d-flex align-center icon-container">
+            <div class="d-flex align-center logo-container">
+              <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+              <h3>Pages</h3>
+            </div>
+            <div class="header-icons-container d-flex">
+              <a class="icons-border-bg-white" target="_blank" href="https://www.facebook.com/">
+                <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+              </a>
     
+              <a class="icons-border-bg-white" target="_blank" href="https://twitter.com/">
+                <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+              </a>
+              <a class="icons-border-bg-white" target="_blank" href="https://www.linkedin.com/">
+                <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+              </a>
+            </div>
+          </div>
+          <!-- navigation start -->
+          <div class="d-flex pages-container align-center">
+            <ul class="d-flex pages-container align-center links">
+              <div class="d-flex align-center hidden-logo logo-container">
+                <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+                <h3>Pages</h3>
+                <a class="cart-shop" href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                <div id="close-menu">
+                  <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
+                </div>
+              </div>
+              <li><a href="">Home</a></li>
+              <li>
+                <a href="">Pages <i class="fa-solid fa-chevron-down fa-xs"></i></a>
+              </li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Contact</a></li>
+              <div class="header-icons-container d-flex">
+                <a class="icons-border-bg-white" target="_blank" href="https://www.facebook.com/">
+                  <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+                </a>
+    
+                <a class="icons-border-bg-white" target="_blank" href="https://twitter.com/">
+                  <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+                </a>
+                <a class="icons-border-bg-white" target="_blank" href="https://www.linkedin.com/">
+                  <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+                </a>
+              </div>
+              <button class="btn menu-btn">
+                <a class="blue" href="#">Order Today</a>
+              </button>
+            </ul>
+            <a class="cart-shop" href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+    
+            <button class="btn menu-btn">
+              <a class="blue" href="#">Order Today</a>
+            </button>
+            <div class="menu" id="menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- navigation end -->
+ 
+    <!-- welcome to pages start -->
+  <div class="bg-blue">
+    <div class="nav container d-flex space-between">
+      <div>
+        <div class="welcome-section">
+          <p class="lined"><i>Welcome</i></p>
+          <h1 class="unique-text">Books are uniquely
+            portable magic</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form.
+          </p>
+        </div>
+        <div class="mar-30 d-flex align-center blue-section">
+          <button class="btn">
+            <a class="blue" href="#">Order Today</a>
+          </button>
+          <a class="underline" href="#">Read Free Demo</a>
+        </div>
+        <div>
+          <div class="pages-cont d-flex">
+            <div class="bulleted">
+              <h4>Pages:</h4>
+              <p class="gray">586 Pages</p>
+            </div>
+            <div class="bulleted">
+              <h4>Length:</h4>
+              <p class="gray">10 Hours</p>
+            </div>
+            <div class="bulleted">
+              <h4>Ratings:</h4>
+              <p class="gray">4.5/5 (305 reytinq)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="bookLight" src="../assets/Book.png" alt="The Dark Light Book cover" />
+      </div>
+    </div>
+  </div>
+  <!-- welcome to pages end --> 
 </body>
 </html>

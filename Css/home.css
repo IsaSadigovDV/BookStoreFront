@@ -330,5 +330,43 @@ button:hover{
   max-width: 450px;
 }  
 
+.learn {
+  position: relative;
+  text-align: center;
+  margin: 40px 0;
+}
+.learn::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 470px;
+  top: 40px;
+}
+.subjects {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.subject-card {
+  max-width: 150px;
+  padding: 15px;
+}
+.book-reader-img {
+  max-height: 450px;
+}
+.yellow-circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  background: #ffca42;
+  border: none;
+  color: #1b3764;
+  text-align: center;
+}
+
 
 

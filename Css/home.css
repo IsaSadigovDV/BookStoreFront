@@ -308,7 +308,27 @@ button:hover{
   max-height: 90px;
   object-fit: contain;
 }
-  
+
+.get-copy {
+  gap: 40px;
+}
+.get-copy-text {
+  position: relative;
+}
+.get-copy-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  top: 35px;
+}
+.magazine {
+  max-width: 450px;
+}  
 
 
 

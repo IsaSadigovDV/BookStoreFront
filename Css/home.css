@@ -410,6 +410,58 @@ button:hover{
   text-decoration: underline;
 }
 
+.rating-section {
+  padding: 50px 0;
+}
+.w-180 {
+  max-width: 180px;
+}
+.w-300 {
+  max-width: 300px;
+}
+.readers-say {
+  position: relative;
+}
+.readers-say::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  top: 95px;
+}
+.reader-card{
+  padding: 10px;
+}
+.reader-card h2{
+  color: white;
+}
+.reader-card p{
+  color: rgba(255, 255, 255, 0.785);
+}
+.reader-img-header{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.readers-img-container {
+  flex-direction: column;
+  gap: 30px;
+}
+.small-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffca42;
+}
+.circles {
+  gap: 5px;
+}
+
 
 
 

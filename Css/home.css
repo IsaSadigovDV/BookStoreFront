@@ -549,5 +549,70 @@ button:hover{
   padding: 10px 60px;
   cursor: pointer;
 }
-
+.footer-container {
+  gap: 40px;
+}
+.footer-logo-container {
+  max-width: 200px;
+  flex-direction: column;
+  gap: 10px;
+}
+.pages-bookmark {
+  gap: 5px;
+}
+.soc-media-icons {
+  gap: 5px;
+}
+.i-blue {
+  color: #1b3764;
+}
+.icons-border {
+  border: 1px solid #ffca42;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-border-bg-white {
+  border: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+footer {
+  padding: 30px;
+}
+.explore,
+.utility,
+.in-touch {
+  flex-direction: column;
+  min-width: 170px;
+}
+ul {
+  list-style: none;
+}
+.explore li>a::before {
+  display: inline-block;
+  /* content: url("../assets/img/icon.png"); */
+  margin-right: 10px;
+}
+.utility li>a::before {
+  display: inline-block;
+  /* content: url("../assets/img/icon.png"); */
+  margin-right: 10px;
+}
+.utility .gray,
+.explore .gray {
+  padding-left: 0;
+}
+.contact {
+  gap: 10px;
+}
+.min-66 {
+  min-width: 66px;
+}
 

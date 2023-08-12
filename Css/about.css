@@ -355,3 +355,130 @@ span::after {
   top: 80px;
 }
 /* author`s books end */
+
+/* trusted by the best start */
+.trusted {
+  gap: 20px;
+}
+.trusted-text {
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+.trusted-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 430px;
+  top: 30px;
+}
+.trusted-brands {
+  gap: 30px;
+}
+.trusted-card {
+  max-width: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+.trusted-brands-small {
+  max-height: 90px;
+  object-fit: contain;
+}
+/* trusted by the best end */
+
+.bg-orange {
+  background-color: #ffca42;
+  padding: 50px 0;
+  flex-direction: column;
+  margin: 50px auto;
+}
+.read-free {
+  position: relative;
+  text-align: center;
+}
+
+.read-free::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #1b3764;
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+  top: 40px;
+}
+.chapter-container {
+  max-width: 400px;
+}
+.free-chapter {
+  text-align: center;
+  padding-top: 20px;
+}
+.form {
+  gap: 10px;
+}
+.input-email {
+  padding: 5px 40px;
+}
+.btn-bg-blue {
+  background-color: #1b3764;
+  border: none;
+  color: white;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+/* read free end */
+
+/* footer start */
+.footer-container {
+  gap: 40px;
+}
+.footer-logo-container {
+  max-width: 200px;
+  flex-direction: column;
+  gap: 10px;
+}
+.pages-bookmark {
+  gap: 5px;
+}
+.soc-media-icons {
+  gap: 5px;
+}
+footer {
+  padding: 30px;
+}
+.explore,
+.utility,
+.in-touch {
+  flex-direction: column;
+  min-width: 170px;
+}
+ul {
+  list-style: none;
+}
+.explore li>a::before {
+  display: inline-block;
+  content: url("./assets/img/icon.png");
+  margin-right: 10px;
+}
+.utility li>a::before {
+  display: inline-block;
+  content: url("./assets/img/icon.png");
+  margin-right: 10px;
+}
+.utility .gray,
+.explore .gray {
+  padding-left: 0;
+}
+.contact {
+  gap: 10px;
+}
+.min-66 {
+  min-width: 66px;
+}
+/* footer end */

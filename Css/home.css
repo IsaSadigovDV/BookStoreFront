@@ -506,5 +506,48 @@ button:hover{
   text-decoration: underline;
 }
 
+.bg-orange {
+  background-color: #ffca42;
+  padding: 50px 0;
+  flex-direction: column;
+  margin: 50px auto;
+}
+.read-free {
+  position: relative;
+  text-align: center;
+}
+
+.read-free::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #1b3764;
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+  top: 40px;
+}
+.chapter-container {
+  max-width: 400px;
+}
+.free-chapter {
+  text-align: center;
+  padding-top: 20px;
+  opacity: 0.7;
+}
+.form {
+  gap: 10px;
+}
+.input-email {
+  padding: 5px 40px;
+}
+.btn-bg-blue {
+  background-color: #1b3764;
+  border: none;
+  color: white;
+  padding: 10px 60px;
+  cursor: pointer;
+}
 
 

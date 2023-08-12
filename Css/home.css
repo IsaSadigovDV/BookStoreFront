@@ -463,5 +463,48 @@ button:hover{
 }
 
 
+.cards {
+  gap: 20px;
+}
+.articles {
+  padding: 40px;
+}
+.article-text {
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.article-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  top: 40px;
+}
+.articles-container {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.article-img-container {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.article-text-container {
+  padding: 20px;
+  text-align: left;
+}
+.article-card {
+  flex-direction: column;
+  max-width: 300px;
+  background-color: white;
+}
+.article-card-details h6 a {
+  text-decoration: underline;
+}
+
 
 

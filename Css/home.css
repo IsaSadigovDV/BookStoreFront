@@ -616,3 +616,151 @@ ul {
   min-width: 66px;
 }
 
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 660px;
+  }
+  .fa-cart-shopping {
+    display: none;
+  }
+  .welcome-section * {
+    text-align: center;
+  }
+  .lined::before {
+    left: 200px;
+  }
+  .blue-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pages-cont {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .links li {
+    min-width: 60px;
+  }
+  .bookLight {
+    display: none;
+  }
+  .books-section {
+    flex-wrap: wrap;
+  }
+  .line-sm::after {
+    left: 300px;
+  }
+  .books-pages-cont {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .author-section {
+    gap: 20px;
+  }
+  .visit-card {
+    max-width: 400px;
+  }
+  .border-right-yellow {
+    padding-right: 20px;
+  }
+  .trusted-brands {
+    flex-wrap: wrap;
+  }
+  .trusted-text::after {
+    left: 315px;
+  }
+  .get-copy {
+    gap: 0;
+  }
+  .get-copy-text::after {
+    top: unset;
+  }
+  .learn::after {
+    left: 300px;
+  }
+  .learn-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-image {
+    display: flex;
+    align-items: center;
+  }
+  .includes-text::after {
+    left: 300px;
+  }
+  .chapters {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .reader-rating-cont {
+    gap: 25px;
+  }
+
+  .article-img-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .article-card {
+    max-width: 400px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .in-touch h3 {
+    text-align: center;
+  }
+  .contact {
+    max-width: 200px;
+  }
+  .links .fa-cart-shopping {
+    display: inline;
+  }
+  .links .menu-btn {
+    display: block;
+  }
+  .menu-btn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .links {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    right: 0;
+    background: #1b3764;
+    z-index: 99;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    transform: translateX(100%);
+    transition: 0.5s all ease-in-out;
+  }
+  .links.active {
+    transform: translateX(0);
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  #close-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .links .hidden-logo {
+    display: flex;
+    gap: 20px;
+  }
+  .links .cart-shop {
+    display: block;
+  }
+  .cart-shop {
+    display: none;
+  }
+}

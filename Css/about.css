@@ -227,3 +227,131 @@
     gap: 20px;
   }
   /* about author section end */
+
+  /* my story start */
+.my-story-txt {
+  max-width: 400px;
+  justify-content: center;
+  gap: 20px;
+}
+.story-underlined {
+  position: relative;
+}
+.story-underlined::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  left: 0;
+  bottom: -8px;
+}
+.my-story-path {
+  gap: 30px;
+}
+.my-story-img-cont {
+  min-width: 500px;
+  object-fit: cover;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+}
+.my-story-img {
+  max-width: 100%;
+}
+.my-story-container {
+  gap: 60px;
+  padding: 70px 0;
+}
+.yellow-square {
+  height: 25px;
+  padding: 10px;
+  background: #ffca42;
+  border: none;
+}
+.story-1 {
+  position: relative;
+}
+span::after {
+  position: absolute;
+  content: "";
+}
+.story-1::after {
+  position: absolute;
+  content: url(../assets/img/dashed-line.png);
+  display: block;
+  width: 1px;
+  height: 10px;
+  background: #1b3764;
+  left: 22px;
+  bottom: 0px;
+  z-index: -5;
+}
+
+/* my story end */
+
+/* author`s books start */
+.books-small {
+  max-height: 300px;
+}
+
+.books-section {
+  padding: 50px 0;
+}
+.includes-text {
+  text-align: center;
+}
+.line-sm {
+  position: relative;
+}
+
+.line-sm::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 470px;
+  top: 30px;
+}
+.books-pages-cont {
+  gap: 40px;
+}
+.bulleted::before {
+  display: inline-block;
+  content: "";
+  border-radius: 0.375rem;
+  height: 0.75rem;
+  width: 0.75rem;
+  margin-right: 0.5rem;
+  background-color: #ffca42;
+}
+
+.bulleted h4 {
+  display: inline;
+}
+
+.bulleted p {
+  margin-left: 20px;
+}
+.includes-text {
+  position: relative;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.includes-text::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffca42;
+  position: absolute;
+  bottom: 0;
+  left: 470px;
+  top: 80px;
+}
+/* author`s books end */

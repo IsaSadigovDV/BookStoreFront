@@ -920,4 +920,19 @@ ul {
     padding-top: 10px;
   }
 }
-
+@media only screen and (max-width: 450px){
+  .subj-container{
+    flex-direction: column;
+    align-items: center;
+  }
+.subject-card{
+  min-width: 300px;
+}
+  .subjects{
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-card{
+    max-width: 250px;
+  }
+}

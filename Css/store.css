@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Cardo-regular;
+    src: url(../fonts/Cardo-Regular.ttf);
+  }
+  @font-face {
+    font-family: Cardo-italic;
+    src: url(../fonts/Cardo-Italic.ttf);
+  }
+  @font-face {
+    font-family: Cardo-bold;
+    src: url(../fonts/Cardo-Bold.ttf);
+  }
+  
+  /* styles for all pages start */
+  * {
+    object-fit: cover;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  body {
+    color: #f9fbff;
+    font-family: Cardo-regular, Cardo-italic, Cardo-bold, serif;
+  }
+  
+  .btn {
+    background-color: #ffca42;
+    border: none;
+    color: #1b3764;
+    padding: 8px 25px;
+  }
+  .btn-no-bg {
+    border: 1px solid #ffca42;
+    color: #1b3764;
+    padding: 8px 25px;
+    background-color: transparent;
+  }
+  .btn-no-bg-white {
+    border: 1px solid #ffca42;
+    color: #f4f8ff;
+    padding: 8px 25px;
+    background-color: transparent;
+  }
+  a {
+    text-decoration: none;
+    color: #f9fbff;
+  }
+  p {
+    text-align: justify;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+  .space-around {
+    justify-content: space-around;
+  }
+  .space-between {
+    justify-content: space-between;
+  }
+  
+  .bg-blue {
+    background-color: #1b3764;
+  }
+  .bg-light-blue {
+    background-color: #f4f8ff;
+  }
+  .bg-white {
+    background-color: white;
+  }
+  .yellow {
+    color: #ffca42;
+  }
+  .white {
+    color: #f4f8ff;
+  }
+  .blue {
+    color: #1b3764;
+  }
+  .gray {
+    color: #969aa0;
+  }
+  .w-400 {
+    max-width: 400px;
+  }
+  .f-dir-column {
+    flex-direction: column;
+  }
+  .i-blue {
+    color: #1b3764;
+  }
+  /* styles for all pages end */
+  
+  /* header and navigation and toggle menu start */
+  
+  .links .menu-btn {
+    display: none;
+  }
+  .links .header-icons-container {
+    display: none;
+  }
+  .links .hidden-logo {
+    display: none;
+  }
+  
+  .menu {
+    display: none;
+  }
+  .header {
+    padding-bottom: 30px;
+  }
+  .nav {
+    gap: 20px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav p {
+    text-align: center;
+  }
+  
+  .unique-text {
+    padding: 10px 0;
+    position: relative;
+  }
+  .unique-text::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: #ffca42;
+    left: 40px;
+    bottom: 3px;
+    position: absolute;
+  }
+  
+  .logo-container {
+    gap: 5px;
+  }
+  
+  .icon-container {
+    gap: 15px;
+  }
+  .pages-container {
+    gap: 20px;
+  }
+  .links li {
+    display: inline-block;
+  }
+  
+  .header-icons-container {
+    gap: 10px;
+  }
+  .icons-border {
+    border: 1px solid #ffca42;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons-border-bg-white {
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  /* header end */
+  /* my store section start */
+
+.about {
+    padding: 70px 0;
+  }
+  .about-author-container {
+    gap: 50px;
+  }
+  .author-img-container img {
+    max-width: 100%;
+    padding-bottom: 70px;
+  }
+  .about-author-card {
+    border: 1px solid #dfe9f8;
+    padding: 20px;
+    min-width: 250px;
+  }
+  .w-100 {
+    min-width: 100px;
+  }
+  
+  .about-author-text h4 {
+    line-height: 2rem;
+  }
+  .about-author-text h2 {
+    position: relative;
+  }
+  .about-author-text h2::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #ffca42;
+    left: 0;
+    bottom: -3px;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+  .small-icons {
+    gap: 20px;
+  }
+  /* my store section end */
+  /* my store section start */
+
+.about {
+    padding: 70px 0;
+  }
+  .about-author-container {
+    gap: 50px;
+  }
+  .author-img-container img {
+    max-width: 100%;
+    padding-bottom: 70px;
+  }
+  .about-author-card {
+    border: 1px solid #dfe9f8;
+    padding: 20px;
+    min-width: 250px;
+  }
+  .w-100 {
+    min-width: 100px;
+  }
+  
+  .about-author-text h4 {
+    line-height: 2rem;
+  }
+  .about-author-text h2 {
+    position: relative;
+  }
+  .about-author-text h2::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #ffca42;
+    left: 0;
+    bottom: -3px;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+  .small-icons {
+    gap: 20px;
+  }
+  /* my store section end */
+  
+  /* author`s books start */
+  .books-section {
+    padding: 50px 0;
+    gap: 30px;
+    justify-content: center;
+  }
+  .all-books {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .books-sec-cont {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .books-images {
+    padding: 30px 20px 5px;
+  }
+  .books-small {
+    max-height: 300px;
+  }
+  .books-text-container {
+    flex-direction: column;
+    max-width: 273px;
+  }
+  .bulleted::before {
+    display: inline-block;
+    content: "";
+    border-radius: 0.375rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    margin-right: 0.5rem;
+    background-color: #ffca42;
+  }
+  .btn-small {
+    max-width: fit-content;
+    padding: 15px 20px;
+  }
+  
+  /* author`s books end */

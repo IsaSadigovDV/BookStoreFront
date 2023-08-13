@@ -295,7 +295,7 @@
   .books-text-container {
     flex-direction: column;
     max-width: 273px;
-  }
+}
   .bulleted::before {
     display: inline-block;
     content: "";
@@ -308,6 +308,10 @@
   .btn-small {
     max-width: fit-content;
     padding: 15px 20px;
+  }
+  .btn-small:hover{
+    cursor: pointer;
+    background-color: #ffca42;
   }
   
   /* author`s books end */

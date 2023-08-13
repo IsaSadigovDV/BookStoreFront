@@ -27,9 +27,8 @@ body {
 .links .menu-btn {
   display: none;
 }
-button:hover {
-  transition: 0.3s;
-  transform: scale(1.05);
+button:hover{
+  cursor: pointer;
 }
 .links .header-icons-container {
   display: none;
@@ -92,6 +91,9 @@ button:hover {
 }
 .links li {
   display: inline-block;
+}
+.links li a:hover{
+  color: #ffca42;
 }
 .mar-30 {
   margin: 30px auto;

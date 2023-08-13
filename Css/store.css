@@ -131,6 +131,9 @@
   .nav p {
     text-align: center;
   }
+  button:hover{
+    cursor: pointer;
+  }
   
   .unique-text {
     padding: 10px 0;
@@ -159,6 +162,9 @@
   }
   .links li {
     display: inline-block;
+  }
+  .links li a:hover{
+    color: #ffca42;
   }
   
   .header-icons-container {

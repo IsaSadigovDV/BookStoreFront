@@ -114,7 +114,9 @@
   .links .hidden-logo {
     display: none;
   }
-  
+  button:hover{
+    cursor: pointer;
+  }
   .menu {
     display: none;
   }
@@ -159,7 +161,9 @@
   .links li {
     display: inline-block;
   }
-  
+  .links li a:hover{
+    color: #ffca42;
+  }
   .header-icons-container {
     gap: 10px;
   }

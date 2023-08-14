@@ -53,7 +53,20 @@
   .d-flex {
     display: flex;
   }
-  
+  .btn-bg-blue {
+    background-color: #1b3764;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    cursor: pointer;
+  }
+  .btn-bg-light-blue {
+    background-color: #f4f8ff;
+    border: none;
+    color: #1b3764;
+    padding: 10px 60px;
+    cursor: pointer;
+  }
   .align-center {
     align-items: center;
   }

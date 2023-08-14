@@ -7,7 +7,6 @@ addToCartButton.addEventListener("click", function() {
     modal.style.display = "block";
 });
 
-// When the user clicks on the close icon, close the modal
 var closeIcon = document.querySelector(".modal-heading i");
 closeIcon.addEventListener("click", function() {
     modal.style.display = "none";

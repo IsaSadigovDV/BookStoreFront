@@ -215,4 +215,29 @@
   
   /* articles txt section end */
 
+  /* articles start */
+.articles {
+    padding: 40px;
+  }
   
+  .articles-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .article-img-container {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .article-text-container {
+    padding: 20px;
+    text-align: left;
+  }
+  .article-card {
+    flex-direction: column;
+    max-width: 300px;
+    background-color: white;
+  }
+  .article-card-details h6 a {
+    text-decoration: underline;
+  }
+  /* articles end */

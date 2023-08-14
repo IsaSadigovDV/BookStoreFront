@@ -170,7 +170,7 @@
           <div class="single-book-buttons d-flex">
             <button class="btn-no-bg">1</button>
             <button class="btn wide-btn">
-              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+              <i class="fa-solid fa-cart-shopping" id="addToCartButton "></i> Add to Cart
             </button>
           </div>
         </div>
@@ -299,7 +299,45 @@
         </div>
       </footer>
       <!-- footer end -->
+      <!-- Modal start -->
+    <div class="bg-gray"  id="cartModal">
+      <div class="modal d-flex f-dir-column">
+        <div class="modal-heading blue d-flex space-between align-center">
+          <h2>Your Cart</h2>
+          <i class="fa-regular fa-x"></i>
+        </div>
+        <div class="book-in-cart d-flex space-between">
+          <div class="cart-book-container d-flex space-between">
+            <div class="cart-book-img">
+              <img src="../assets/img/Book-sm1.png" alt="atomic one`s book" />
+            </div>
+            <div class="cart-book-description">
+              <h3 class="blue">Atomic One`s</h3>
+              <h4 class="gray">$30.00 USD</h4>
+              <h2 class="blue">Remove</h2>
+            </div>
+          </div>
+          <div>
+            <input
+              type="number"
+              name="get-book"
+              id="get-book"
+              placeholder="1"
+            />
+          </div>
+        </div>
+        <div class="blue d-flex space-between total">
+          <p>Sub-Total</p>
+          <p><b>$ 60.00 USD</b></p>
+        </div>
+        <button class="btn checkout">Continue to Checkout</button>
+      </div>
+    </div>
+
+    <!-- Modal end -->
+
       <script src="../Js/home.js"></script>     
+      <script src="../Js/modal.js"></script>
     
 </body>
 </html>

@@ -435,3 +435,214 @@ ul {
   min-width: 66px;
 }
 /* footer end */
+/* Modal start */
+.bg-gray {
+  background-color: rgba(27, 55, 100, 0.86);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.modal {
+  background-color: #f9f9f9;
+  padding: 40px;
+  max-width: 50%;
+  position: fixed;
+  top: 80px;
+  left: 30%;
+  z-index: 100;
+}
+.modal-heading {
+  background-color: #ffca42;
+  padding: 20px 30px;
+}
+.cart-book-img img {
+  max-width: 150px;
+}
+.book-in-cart {
+  padding: 20px;
+  align-items: flex-start;
+  border-bottom: 1px solid #dfe9f8;
+  gap: 10px;
+}
+.cart-book-description h2 {
+  font-weight: lighter;
+}
+#get-book {
+  border: 1px solid #e8e8e8;
+  background-color: #f9f9f9;
+  max-width: 60px;
+  padding: 10px 8px;
+  outline: none;
+}
+.total {
+  padding: 10px 20px;
+}
+.checkout {
+  margin: 5px 20px;
+}
+
+
+/* Modal end */ 
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 660px;
+  }
+  .links li {
+    min-width: 60px;
+  }
+  .links .fa-cart-shopping {
+    display: inline;
+  }
+  .links .menu-btn {
+    display: block;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .fa-cart-shopping {
+    display: none;
+  }
+  .questions-left,
+  .questions-right {
+    max-width: 250px;
+  }
+  .contact {
+    max-width: 200px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .links {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    right: 0;
+    background: #1b3764;
+    z-index: 99;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    transform: translateX(100%);
+    transition: 0.5s all ease-in-out;
+  }
+  .links.active {
+    transform: translateX(0);
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  #close-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .links .hidden-logo {
+    display: flex;
+    gap: 20px;
+  }
+  .links .cart-shop {
+    display: block;
+  }
+  .cart-shop {
+    display: none;
+  }
+  .single-book-description {
+    max-width: 300px;
+  }
+  .single-book {
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 560px;
+    padding: 15px;
+  }
+  .nav {
+    gap: 0;
+  }
+  .unique-text::after {
+    display: none;
+  }
+  .single-book-container {
+    padding: 30px 20px 0px;
+  }
+  .single-book {
+    flex-direction: column;
+  }
+  .secure-payment-etc {
+    gap: 30px;
+  }
+  .questions-container {
+    gap: 90px;
+  }
+  .questions-left,
+  .questions-right {
+    padding: 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo-container {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .links {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+  .logo-container {
+    gap: 50px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+  .header-icons-container {
+    display: none;
+  }
+
+  .links .fa-cart-shopping {
+    display: inline;
+  }
+  .links .header-icons-container {
+    display: flex;
+  }
+  .product-btn-container {
+    margin: 0 30px;
+    gap: 5px;
+  }
+  .btn-bg-blue {
+    padding: 10px 30px;
+  }
+  .btn-bg-light-blue {
+    padding: 10px 30px;
+  }
+  .questions-container {
+    gap: 30px;
+  }
+  .shipping {
+    justify-content: unset;
+    align-items: center;
+  }
+}

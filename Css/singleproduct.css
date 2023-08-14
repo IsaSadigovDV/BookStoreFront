@@ -298,6 +298,10 @@
   }
   span a{
     color: black;
+    cursor: default;
+  }
+  li a{
+    cursor: default;
   }
   
   .detailTitle {
@@ -323,3 +327,52 @@
     padding-bottom: 30px;
   }
   /* product description buttons end */
+
+  /* questions start */
+.questions-left,
+.questions-right {
+  max-width: 400px;
+}
+.questions-left {
+  padding-left: 30px;
+}
+.questions-right {
+  padding-right: 30px;
+}
+.pad-50 {
+  padding-bottom: 50px;
+}
+/* questions end */
+
+
+/* payments-shipping start */
+
+.bg-orange {
+  background-color: #ffca42;
+  padding: 50px 0;
+  flex-direction: column;
+}
+.secure img,
+.shipping img,
+.satisfaction img {
+  background-color: #1b3764;
+  max-height: 30px;
+}
+.secure img {
+  padding: 10px;
+}
+.shipping img {
+  padding: 10px 11px;
+}
+.satisfaction img {
+  padding: 10px 14px;
+}
+.icon-text-container {
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.icon-text-container * {
+  text-align: center;
+}
+/* payments-shipping end */

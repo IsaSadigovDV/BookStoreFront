@@ -27,7 +27,7 @@ body {
 .links .menu-btn {
   display: none;
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
 .links .header-icons-container {
@@ -92,7 +92,7 @@ button:hover{
 .links li {
   display: inline-block;
 }
-.links li a:hover{
+.links li a:hover {
   color: #ffca42;
 }
 .mar-30 {
@@ -279,27 +279,28 @@ p {
 }
 
 .trusted {
-  gap: 20px;
+  padding: 100px 0;
 }
 .trusted-text {
   text-align: center;
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  margin: 0 0 40px;
 }
 .trusted-text::after {
   display: block;
   content: "";
-  width: 30px;
+  width: 55px;
   height: 2px;
   background: #ffca42;
   position: absolute;
   bottom: 0;
-  left: 430px;
-  top: 30px;
+  left: 50%;
+  translate: -50%;
+  /* left: 430px; */
+  /* top: 30px; */
 }
-.trusted-brands {
-  gap: 30px;
-}
+
 .trusted-card {
   max-width: 200px;
   flex-direction: column;
@@ -899,9 +900,9 @@ ul {
   .logo-container {
     gap: 50px;
   }
-.readers-img{
-  max-width: 250px;
-}
+  .readers-img {
+    max-width: 250px;
+  }
   .menu-btn {
     display: none;
   }
@@ -915,26 +916,26 @@ ul {
   .links .header-icons-container {
     display: flex;
   }
-.visit-card{
-  max-width: 300px;
-}
-  .copyright-txt{
+  .visit-card {
+    max-width: 300px;
+  }
+  .copyright-txt {
     padding-top: 10px;
   }
 }
-@media only screen and (max-width: 450px){
-  .subj-container{
+@media only screen and (max-width: 450px) {
+  .subj-container {
     flex-direction: column;
     align-items: center;
   }
-.subject-card{
-  min-width: 300px;
-}
-  .subjects{
+  .subject-card {
+    min-width: 300px;
+  }
+  .subjects {
     flex-direction: column;
     align-items: center;
   }
-  .article-card{
+  .article-card {
     max-width: 250px;
   }
 }

@@ -92,9 +92,42 @@ button:hover {
 .links li {
   display: inline-block;
 }
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-wrapper:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  height: fit-content;
+  margin: 5px 0 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  opacity: 0;
+  margin: 0;
+  visibility: hidden;
+  height: 0;
+  transition: 0.3s;
+}
+
+.dropdown li {
+  margin-bottom: 5px;
+}
+
+.dropdown li:last-child {
+  margin: 0;
+}
+
 .links li a:hover {
   color: #ffca42;
 }
+
 .mar-30 {
   margin: 30px auto;
 }
@@ -642,6 +675,7 @@ ul {
   .links li {
     min-width: 60px;
   }
+
   .bookLight {
     display: none;
   }
@@ -743,9 +777,27 @@ ul {
     transform: translateX(100%);
     transition: 0.5s all ease-in-out;
   }
+
   .links.active {
     transform: translateX(0);
   }
+
+  .dropdown-wrapper:hover .dropdown {
+    margin-top: 15px;
+  }
+
+  .dropdown {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .dropdown li {
+    margin-bottom: 10px;
+    display: block;
+  }
+
   .menu {
     display: block;
     cursor: pointer;

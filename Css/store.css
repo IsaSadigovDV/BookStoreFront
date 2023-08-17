@@ -167,6 +167,38 @@ button:hover {
   color: #ffca42;
 }
 
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-wrapper:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  height: fit-content;
+  margin: 5px 0 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  opacity: 0;
+  margin: 0;
+  visibility: hidden;
+  height: 0;
+  transition: 0.3s;
+}
+
+.dropdown li {
+  margin-bottom: 5px;
+}
+
+.dropdown li:last-child {
+  margin: 0;
+}
+
+
 .header-icons-container {
   gap: 10px;
 }

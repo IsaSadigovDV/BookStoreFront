@@ -265,6 +265,31 @@ button:hover {
   gap: 20px;
 }
 /* my store section end */
+
+/* seacrh section start */
+.search-section{
+  padding: 30px 0 0 0;
+  background-color: none#541010;
+}
+.search-container{
+  flex: 1;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 8px 60px;
+  border: 1px solid rgb(52, 52, 149);
+  outline: none;
+}
+
+
+/* seacrh section end */
+
 /* my store section start */
 
 .about {

@@ -371,3 +371,140 @@
         min-width: 66px;
       }
       /* footer end */
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 660px;
+  }
+  .links li {
+    min-width: 60px;
+  }
+  .links .fa-cart-shopping {
+    display: inline;
+  }
+  .links .menu-btn {
+    display: block;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .fa-cart-shopping {
+    display: none;
+  }
+  .contact {
+    max-width: 200px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .links {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    right: 0;
+    background: #1b3764;
+    z-index: 99;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    transform: translateX(100%);
+    transition: 0.5s all ease-in-out;
+  }
+  .links.active {
+    transform: translateX(0);
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  #close-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .links .hidden-logo {
+    display: flex;
+    gap: 20px;
+  }
+  .links .cart-shop {
+    display: block;
+  }
+  .cart-shop {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 560px;
+    padding: 15px;
+  }
+  .nav {
+    gap: 0;
+  }
+  .unique-text::after {
+    display: none;
+  }
+  .bg-light-gray {
+    padding: 50px;
+  }
+  .protected-container {
+    padding: 40px;
+  }
+  .protected-form-heading::after {
+    display: none;
+  }
+  .protected-form-heading {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo-container {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .links {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+  .logo-container {
+    gap: 50px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+  .header-icons-container {
+    display: none;
+  }
+
+  .links .fa-cart-shopping {
+    display: inline;
+  }
+  .links .header-icons-container {
+    display: flex;
+  }
+  .bg-light-gray {
+    padding: 50px;
+    min-width: 250px;
+  }
+  .protected-container {
+    padding: 20px;
+  }
+}
+      

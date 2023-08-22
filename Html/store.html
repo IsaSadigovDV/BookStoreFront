@@ -10,109 +10,117 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <header class="bg-blue">
-        <div class="header d-flex container space-between align-center">
-          <div class="d-flex align-center icon-container">
-            <div class="d-flex align-center logo-container">
-              <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
-              <h3>Pages</h3>
-            </div>
-            <div class="header-icons-container d-flex">
-              <a
-                class="icons-border-bg-white"
-                target="_blank"
-                href="https://www.facebook.com/"
-              >
-                <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
-              </a>
-  
-              <a
-                class="icons-border-bg-white"
-                target="_blank"
-                href="https://twitter.com/"
-              >
-                <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
-              </a>
-              <a
-                class="icons-border-bg-white"
-                target="_blank"
-                href="https://www.linkedin.com/"
-              >
-                <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
-              </a>
-            </div>
-          </div>
-          <!-- navigation start -->
-          <div class="d-flex pages-container align-center">
-            <ul class="d-flex pages-container align-center links">
-              <div class="d-flex align-center hidden-logo logo-container">
-                <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
-                <h3>Pages</h3>
-                <a class="cart-shop" href="#cart"
-                  ><i class="fa-solid fa-cart-shopping"></i
-                ></a>
-                <div id="close-menu">
-                  <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
-                </div>
-              </div>
-              <li><a href="">Home</a></li>
-              <li class="dropdown-wrapper">
-                <a href=""
-                  >Pages <i class="fa-solid fa-chevron-down fa-xs"></i
-                ></a>
-  
-                <ul class="dropdown">
-                  <li><a href="./store.html">Books</a></li>
-  
-                  <li><a href="./blog.html">Blogs</a></li>
-                </ul>
-              </li>
-              <li><a href="./about.html">About</a></li>
-              <li><a href="./blog.html">Services</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./login.html">Login</a></li>
-              <li><a href="./signup.html">Signup</a></li>
-              <div class="header-icons-container d-flex">
-                <a
-                  class="icons-border-bg-white"
-                  target="_blank"
-                  href="https://www.facebook.com/"
-                >
-                  <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
-                </a>
-  
-                <a
-                  class="icons-border-bg-white"
-                  target="_blank"
-                  href="https://twitter.com/"
-                >
-                  <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
-                </a>
-                <a
-                  class="icons-border-bg-white"
-                  target="_blank"
-                  href="https://www.linkedin.com/"
-                >
-                  <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
-                </a>
-              </div>
-              <button class="btn menu-btn">
-                <a class="blue" href="#">Order Today</a>
-              </button>
-            </ul>
+  <header class="bg-blue">
+    <div class="header-top">
+      <div class="d-flex container space-between align-center">
+        <div class="header-icons-container d-flex">
+          <a
+            class="icons-border-bg-white"
+            target="_blank"
+            href="https://www.facebook.com/"
+          >
+            <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+          </a>
+
+          <a
+            class="icons-border-bg-white"
+            target="_blank"
+            href="https://twitter.com/"
+          >
+            <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+          </a>
+          <a
+            class="icons-border-bg-white"
+            target="_blank"
+            href="https://www.linkedin.com/"
+          >
+            <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+          </a>
+        </div>
+
+        <ul class="d-flex" style="gap: 15px">
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./signup.html">Signup</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header d-flex container space-between align-center">
+      <div class="d-flex align-center icon-container">
+        <div class="d-flex align-center logo-container">
+          <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+          <h3>Pages</h3>
+        </div>
+      </div>
+      <!-- navigation start -->
+      <div class="d-flex pages-container align-center">
+        <ul class="d-flex pages-container align-center links">
+          <div class="d-flex align-center hidden-logo logo-container">
+            <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+            <h3>Pages</h3>
             <a class="cart-shop" href="#cart"
               ><i class="fa-solid fa-cart-shopping"></i
             ></a>
-  
-            <button class="btn menu-btn">
-              <a class="blue" href="#">Order Today</a>
-            </button>
-            <div class="menu" id="menu">
-              <i class="fa-solid fa-bars"></i>
+            <div id="close-menu">
+              <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
             </div>
           </div>
+          <li><a href="">Home</a></li>
+          <li class="dropdown-wrapper">
+            <a href=""
+              >Pages <i class="fa-solid fa-chevron-down fa-xs"></i
+            ></a>
+
+            <ul class="dropdown">
+              <li><a href="./store.html">Books</a></li>
+
+              <li><a href="./blog.html">Blogs</a></li>
+            </ul>
+          </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./blog.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <div class="header-icons-container d-flex">
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.facebook.com/"
+            >
+              <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+            </a>
+
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://twitter.com/"
+            >
+              <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+            </a>
+            <a
+              class="icons-border-bg-white"
+              target="_blank"
+              href="https://www.linkedin.com/"
+            >
+              <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+            </a>
+          </div>
+          <button class="btn menu-btn">
+            <a class="blue" href="#">Order Today</a>
+          </button>
+        </ul>
+        <a class="cart-shop" href="#cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+
+        <button class="btn menu-btn">
+          <a class="blue" href="#">Order Today</a>
+        </button>
+        <div class="menu" id="menu">
+          <i class="fa-solid fa-bars"></i>
         </div>
-      </header>
+      </div>
+    </div>
+  </header>
       <!-- navigation end -->
 
       <!-- my store section start -->

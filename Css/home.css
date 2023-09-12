@@ -210,6 +210,8 @@ p {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s all;
+  background-color: #ffca42;
+  color: #1b3764;
   
 }
 
@@ -217,6 +219,8 @@ p {
   background-color: #1b3764;
   border-radius: 4px;
   padding: 10px;
+  border-bottom: 1px solid #1b3764;
+  background-color: #ffca42;
   gap: 20px;
 }
 

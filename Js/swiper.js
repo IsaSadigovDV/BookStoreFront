@@ -17,7 +17,7 @@ const swiper = new Swiper(".book-swiper", {
 });
 
 const swiperCompany = new Swiper(".brand-swiper", {
-  // slidesPerView: 4,
+  slidesPerView: 4,
   spaceBetween: 10,
   loop: true,
   pagination: {
